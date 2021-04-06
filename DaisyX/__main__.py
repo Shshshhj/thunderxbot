@@ -63,7 +63,7 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm [THUNDER ⚡](https://telegra.ph/file/473cc17913393959e0667.jpg)
+Hello there, I'm [THUNDER ⚡](https://telegra.ph/file/2c3bcb08a904b0542fa96.jpg)
 
 I'm a powerful group manager bot. Add me to your group. Use these buttons 
 """
@@ -293,7 +293,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "*⚊❮❮❮❮ ｢  Help  for  {}  module 」❯❯❯❯⚊*\n".format(
+                "*⚊ Help  for  {}  module ⚊*\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -355,11 +355,11 @@ def DaisyX_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"* Hi!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by N A C Bots.* "
+            text=f"* Hi!  I'm {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by N A C Bots.* "
             f"\n\n Join [N A C Bots](https://t.me/nacbots) To Keep Yourself Updated About {dispatcher.bot.first_name} "
-            f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
-            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/2c3bcb08a904b0542fa96.jpg)"
-            f"\n\n You Can Know More About Me By Clicking The Below Buttons 👇",
+            f"\n\n SIMPLE."
+            f"\n\n POWERFUL [⚡](https://telegra.ph/file/2c3bcb08a904b0542fa96.jpg)"
+            f"\n\n You Can Know More About Me By Clicking The Below Buttons 🔽",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -368,9 +368,7 @@ def DaisyX_about_callback(update, context):
                         InlineKeyboardButton(
                             text="How To Use Me", callback_data="aboutmanu_howto"
                         ),
-                        InlineKeyboardButton(
-                            text="T & C", callback_data="aboutmanu_tac"
-                        ),
+                        
                     ],
                     [
                         InlineKeyboardButton(
