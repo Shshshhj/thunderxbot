@@ -390,7 +390,7 @@ dispatcher.add_handler(UNMUTE_HANDLER)
 dispatcher.add_handler(TEMPMUTE_HANDLER)
 dispatcher.add_handler(STEMPMUTE_HANDLER)
 
-__mod_name__ = "Muting 🔇"
+__mod_name__ = "ᴍᴜᴛɪɴɢ​"
 __handlers__ = [
     MUTE_HANDLER,
     SMUTE_HANDLER,
