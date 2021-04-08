@@ -402,7 +402,7 @@ def DaisyX_about_callback(update, context):
                             text="Admins Settings", callback_data="aboutmanu_permis"
                         ),
                         InlineKeyboardButton(
-                            text="Anti Spam", callback_data="aboutmanu_spamprot"
+                            text="ᴀɴᴛɪ sᴘᴀᴍ​", callback_data="aboutmanu_spamprot"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="aboutmanu_")],
