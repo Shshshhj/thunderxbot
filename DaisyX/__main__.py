@@ -818,7 +818,7 @@ def main():
         DaisyX_about_callback, pattern=r"aboutmanu_"
     )
 
-    donate_handler = CommandHandler("donazte", donazte)
+    donate_handler = CommandHandler("donate", donate)
 
     migrate_handler = MessageHandler(Filters.status_update.migrate, migrate_chats)
     is_chat_allowed_handler = MessageHandler(Filters.group, is_chat_allowed)
