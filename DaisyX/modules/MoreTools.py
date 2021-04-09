@@ -19,8 +19,10 @@ __help__ = """
  
 ** Style Text **
  - /weebify : Weebify Text
- - /square : square Text
- - /blue : Blues text
+ - /square : 🅂🅀🅄🄰🅁🄴  🅃🄴🅇🅃
+ - /fsquare : 🅵🅸🅻🅻🅴🅳  🆂🆀🆄🅰🆁🅴  🆃🅴🆇🆃
+ - /blue : 🇧 🇱 🇺 🇪   🇹 🇪 🇽 🇹
+ - /circle : 
  
 ** More **
  - /phone <tp no> : Track Phone no
