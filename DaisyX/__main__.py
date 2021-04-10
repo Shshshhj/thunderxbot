@@ -784,8 +784,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
         update.effective_message.reply_text(
-            "No donation needed. Please join @Nacbots"
-            parse_mode=ParseMode.MARKDOWN,
+            "No donation needed. Please join @Nacbots" 
         )
 
     else:
